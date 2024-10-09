@@ -10,7 +10,7 @@ const app = express()
 
 app.use(bodyParser.json())
 
-const connectionString = "mongodb+srv://tester2:321@cluster0.daong.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const connectionString = "mongodb+srv://nadeesha:wmnm.123@cluster0.wet56.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 app.use((req,res,next)=>{
 
@@ -54,4 +54,3 @@ app.use("/api/gallery",galleryItemRouter)
 app.listen(5000,(req,res)=>{
   console.log("Sever is running on on port 5000")
 });
-
