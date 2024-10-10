@@ -37,7 +37,7 @@ app.use((req,res,next)=>{
 
 mongoose.connect(connectionString).then(
   ()=>{
-    console.log("Connected to the databasetest")
+    console.log("Connected to the databasetest00023")
   }
 ).catch(
   ()=>{
